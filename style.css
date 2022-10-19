@@ -103,7 +103,7 @@ body::before {
   flex-shrink: 0;
   transition: all 0.2s;
 }
-@media screen and (max-width: 768px) {
+@media screen {
   .profile-card a {
     width: 250px;
     height: 250px;
@@ -118,7 +118,7 @@ body::before {
     background: linear-gradient(to right, #8a8ae0, #a2a2d4);
   }
   .profile-card a.instagram {
-    background: linear-gradient(#8a8ae0, #a2a2d4);
+    background: linear-gradient(to bottom, #ac00ac, #bc318f, yellow);
   }
   .profile-card a.whatsapp {
     background: linear-gradient(#8a8ae0, #a2a2d4);
