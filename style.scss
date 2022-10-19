@@ -122,7 +122,7 @@ body{
             flex-shrink: 0;
             transition: all .2s;
             
-            @media screen and (max-width:768px){
+            @media screen{
                 width: 250px;
                 height: 250px;
                 margin: 20px;
@@ -139,7 +139,7 @@ body{
                 }
                
                 &.instagram {
-                    background: linear-gradient(#8a8ae0,#a2a2d4);
+                    background: linear-gradient(to bottom, #ac00ac , #bc318f, yellow);
                     
                 } 
                 &.whatsapp {
